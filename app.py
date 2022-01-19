@@ -18,7 +18,7 @@ def greet(name=""):
 def celsius_to_fahrenheit(celsius):
     """Convert celsius to fahrenheit."""
     fahrenheit = float(celsius) * 9.0 / 5 + 32
-    return str(fahrenheit)
+    return f"Input: {celsius} celsius<br>Result: {fahrenheit} fahrenheit"
 
 
 if __name__ == '__main__':
